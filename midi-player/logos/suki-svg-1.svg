@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 556" width="512" height="556">
+  <!-- suki — SVG 1 (TAU-inspired): giant blocky s + gray offset copy over a full-width piano band -->
+  <rect width="512" height="556" fill="#26262a"/>
+  <!-- piano band -->
+  <rect x="0" y="252" width="512" height="6" fill="#ff6ec7"/>
+  <rect x="0" y="258" width="512" height="112" fill="#f0f0f0"/>
+  <g fill="#0d0d0d">
+    <rect x="30"  y="258" width="13" height="68"/><rect x="60"  y="258" width="13" height="68"/>
+    <rect x="120" y="258" width="13" height="68"/><rect x="150" y="258" width="13" height="68"/><rect x="180" y="258" width="13" height="68"/>
+    <rect x="240" y="258" width="13" height="68"/><rect x="270" y="258" width="13" height="68"/>
+    <rect x="330" y="258" width="13" height="68"/><rect x="360" y="258" width="13" height="68"/><rect x="390" y="258" width="13" height="68"/>
+    <rect x="450" y="258" width="13" height="68"/><rect x="480" y="258" width="13" height="68"/>
+  </g>
+  <g fill="#c9c9c9">
+    <rect x="26" y="258" width="1.5" height="112"/><rect x="52" y="258" width="1.5" height="112"/><rect x="78" y="258" width="1.5" height="112"/>
+    <rect x="104" y="258" width="1.5" height="112"/><rect x="116" y="258" width="1.5" height="112"/><rect x="142" y="258" width="1.5" height="112"/>
+    <rect x="168" y="258" width="1.5" height="112"/><rect x="194" y="258" width="1.5" height="112"/><rect x="206" y="258" width="1.5" height="112"/>
+    <rect x="232" y="258" width="1.5" height="112"/><rect x="258" y="258" width="1.5" height="112"/><rect x="284" y="258" width="1.5" height="112"/>
+    <rect x="310" y="258" width="1.5" height="112"/><rect x="322" y="258" width="1.5" height="112"/><rect x="348" y="258" width="1.5" height="112"/>
+    <rect x="374" y="258" width="1.5" height="112"/><rect x="400" y="258" width="1.5" height="112"/><rect x="412" y="258" width="1.5" height="112"/>
+    <rect x="438" y="258" width="1.5" height="112"/><rect x="464" y="258" width="1.5" height="112"/><rect x="490" y="258" width="1.5" height="112"/>
+  </g>
+  <!-- gray offset copy of the s -->
+  <g fill="#8a8a8a" transform="translate(146,64)">
+    <rect x="0" y="0" width="210" height="64"/><rect x="0" y="64" width="64" height="64"/><rect x="0" y="128" width="210" height="64"/>
+    <rect x="146" y="192" width="64" height="64"/><rect x="0" y="256" width="210" height="64"/>
+  </g>
+  <!-- giant blocky s -->
+  <g fill="#ff6ec7" transform="translate(160,80)">
+    <rect x="0" y="0" width="210" height="64"/><rect x="0" y="64" width="64" height="64"/><rect x="0" y="128" width="210" height="64"/>
+    <rect x="146" y="192" width="64" height="64"/><rect x="0" y="256" width="210" height="64"/>
+  </g>
+  <!-- marker-style wordmark -->
+  <g transform="translate(0,442) skewX(-8)" fill="none" stroke="#bdbdbd" stroke-width="12" stroke-linecap="square">
+    <path transform="translate(96,0)"  d="M 76 6 L 14 6 L 14 48 L 66 48 L 66 90 L 4 90"/>
+    <path transform="translate(200,0)" d="M 6 6 L 6 90 L 74 90 L 74 6"/>
+    <path transform="translate(304,0)" d="M 6 6 L 6 90 M 72 6 L 10 52 M 30 43 L 76 90"/>
+    <g transform="translate(408,0)">
+      <rect x="3" y="2" width="11" height="11" fill="#bdbdbd" stroke="none"/>
+      <path d="M 8.5 28 L 8.5 90"/>
+    </g>
+  </g>
+</svg>
